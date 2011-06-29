@@ -1,5 +1,5 @@
-a:link {text-decoration:none;color: #697F55;}
-a:visited {text-decoration:none;color: #697F55;}
+a:link {text-decoration:none;color: #103FEE;}
+a:visited {text-decoration:none;color: #103FEE;}
 a:hover {text-decoration:underline;}
 
 img.icon,
@@ -7,15 +7,15 @@ img.iconhelp {vertical-align:middle;}
 
 html, body {background-color:#C8C9C7;}
 #page #page-content {background-color:#FFF;}
-#page-header {background-color: #222; color:#FFF;border-bottom:5px solid #697F55;}
+#page-header {background-color: #F3D92C; color:#103FEE;border-bottom:5px solid #F3D92C;}
 .hasnavbar #page-header {border-bottom-width:0px;}
-#page-footer {background-color: #222; color:#FFF;}
+#page-footer {background-color: #F3D92C; color:#103FEE;}
 #page-header .headermain span {color:#C8C9C7;}
 
-#page-header .navbar {background-color:#697F55;width:100%;}
+#page-header .navbar {background-color:#F3D92C;width:100%;}
 #page-header .navbar {color:#000;}
 #page-header .navbar a:link,
-#page-header .navbar a:visited {color:#fff;}
+#page-header .navbar a:visited {color:#103FEE;}
 #page-header .navbar .breadcrumb,
 #page-header .navbar .navbutton {margin:5px 1em;}
 
@@ -23,7 +23,7 @@ html, body {background-color:#C8C9C7;}
 .generalbox {border: 1px solid #DDDDDD;}
 .generaltable td {border-width:0;}
 .sitetopic {border-width:0;}
-.headingblock {margin-bottom:10px;border-bottom:1px solid #697F55;background-color:#E3E3E3;padding:4px 5px;}
+.headingblock {margin-bottom:10px;border-bottom:1px solid #103FEE;background-color:#E3E3E3;padding:4px 5px;}
 
 .coursebox {width:100%;margin:10px 0px;border-bottom:1px solid #E3E3E3;overflow:hidden;padding-bottom:10px;}
 .coursebox .info {width:35%;float:left;}
@@ -99,7 +99,7 @@ html, body {background-color:#C8C9C7;}
 .user th.header,
 .group th.header,
 .admin table tr th,
-.admin table tr th.header {background-color:#697F55;color:#FFF;border:2px solid #697F55;border-bottom-color:#111;}
+.admin table tr th.header {background-color:#103FEE;color:#FFF;border:2px solid #103FEE;border-bottom-color:#111;}
 
 .user th a:link,
 #categoryquestions th a:link,
@@ -240,7 +240,7 @@ html, body {background-color:#C8C9C7;}
 .yui3-skin-sam #page .custom_menu_submenu .yui3-menu-label,
 .yui3-skin-sam #page .custom_menu_submenu .yui3-menuitem-content {color: #000 !important;text-shadow: none !important;line-height: 25px;}
 .yui3-skin-sam #page .yui3-menu-label.yui3-menu-label-active,
-.yui3-skin-sam #page .yui3-menuitem-active .yui3-menuitem-content {color: #000;background-color: #697F55;}
+.yui3-skin-sam #page .yui3-menuitem-active .yui3-menuitem-content {color: #000;background-color: #103FEE;}
 .yui3-skin-sam #page .yui3-menu-content,
 .yui3-skin-sam #page .yui3-menu .yui3-menu .yui3-menu-content,
 .yui3-skin-sam #page .yui3-menu-horizontal .yui3-menu-label,
@@ -248,4 +248,4 @@ html, body {background-color:#C8C9C7;}
 .yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label,
 .yui3-skin-sam .yui3-menu-horizontal .yui3-menuitem-content {border-color:#808080;border-style:solid;border-width:0px 0;}
 
-#page .custom_menu_submenu {border: 1px solid #697F55 !important;-webkit-border-bottom-right-radius: 5px;-webkit-border-bottom-left-radius: 5px;-moz-border-radius-bottomright: 5px;-moz-border-radius-bottomleft: 5px;border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;}
+#page .custom_menu_submenu {border: 1px solid #103FEE !important;-webkit-border-bottom-right-radius: 5px;-webkit-border-bottom-left-radius: 5px;-moz-border-radius-bottomright: 5px;-moz-border-radius-bottomleft: 5px;border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;}

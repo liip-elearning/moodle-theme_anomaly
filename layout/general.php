@@ -1,5 +1,12 @@
 <?php
 
+$logofile = get_string ('logofile','theme_tcstec');
+if (empty ($logofile) || $logofile != clean_param ($logofile, PARAM_FILE))
+{
+	$logofile = 'logodefault';
+}
+$logourl = $OUTPUT->pix_url ($logofile, 'theme');$hasheading = ($PAGE->heading);
+
 $hasheading = ($PAGE->heading);
 $hasnavbar = (empty($PAGE->layout_options['nonavbar']) && $PAGE->has_navbar());
 $hasfooter = (empty($PAGE->layout_options['nofooter']));
@@ -38,7 +45,6 @@ echo $OUTPUT->doctype() ?>
         <div class="rounded-corner top-left"></div>
         <div class="rounded-corner top-right"></div>
         <?php if ($hasheading) { ?>
-        <h1 class="headermain"><?php echo $PAGE->heading ?></h1>
         <div class="headermenu"><?php
             echo $OUTPUT->login_info();
             if (!empty($PAGE->layout_options['langmenu'])) {
@@ -46,11 +52,13 @@ echo $OUTPUT->doctype() ?>
             }
             echo $PAGE->headingmenu
         ?></div><?php } ?>
-        
+
+		<img src="<?php echo $logourl;?>" alt="TCS Logo" />
+
         <?php if ($hascustommenu) { ?>
- 	<div id="custommenu"><?php echo $custommenu; ?></div>
-		<?php } ?>
-        
+        <div id="custommenu"><?php echo $custommenu; ?></div>
+        <?php } ?>
+
         <?php if ($hasnavbar) { ?>
             <div class="navbar clearfix">
                 <div class="breadcrumb"><?php echo $OUTPUT->navbar(); ?></div>
