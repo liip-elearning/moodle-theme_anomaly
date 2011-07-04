@@ -9,7 +9,9 @@ html, body {background-color:#C8C9C7;}
 #page #page-content {background-color:#FFF;}
 #page-header {background-color: #F3D92C; color:#103FEE;border-bottom:5px solid #F3D92C;}
 .hasnavbar #page-header {border-bottom-width:0px;}
-#page-footer {background-color: #F3D92C; color:#103FEE;}
+#page-footer {background-color: #F3D92C; color:#103FEE; min-height:30px;}
+#page-footer .sitelink img {display: none;}
+#page-footer .logininfo {margin: 10px 0;}
 #page-header .headermain span {color:#C8C9C7;}
 
 #page-header .navbar {background-color:#F3D92C;width:100%;}
